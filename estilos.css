@@ -1,0 +1,46 @@
+/* Estilos básicos para centrar el contenido y darle estilo */
+body {
+    font-family: 'Share Tech Mono', monospace; /* Fuente con estilo técnico */
+    background: radial-gradient(circle, #0d0d0d, #1a1a1a);
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal con un estilo de pantalla de interfaz */
+.container {
+    text-align: center;
+    background-color: rgba(30, 30, 30, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #444;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.3), inset 0 0 20px rgba(0, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+/* Título con efecto de iluminación de pantalla */
+h1 {
+    color: #00ffcc;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+/* Párrafo que muestra el resultado con un estilo de texto digital */
+#resultado {
+    color: #e0e0e0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #00b3b3, #009999);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    border: 1px solid #00b3b3;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
